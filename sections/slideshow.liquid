@@ -28,7 +28,7 @@
               {%- endif -%}
             {%- endunless -%}
 
-            {%- if block.settings.image -%}
+            {%- if block.settings.image or block.settings.image_url != blank -%}
               {%- liquid
                 if forloop.first
                   assign loading_strategy = nil
@@ -42,7 +42,11 @@
               {%- capture class_attribute -%}slideshow__image {% unless section.settings.section_size == 'preserve_ratio' %}image-background{% endunless %}{%- endcapture -%}
 
               <div class="{% if block.settings.mobile_image %}hidden-phone{% endif %}">
-                {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: loading: loading_strategy, fetchpriority: fetch_priority, widths: '200,300,400,600,800,1000,1200,1400,1600,1800,2000,2200,2400', class: class_attribute -}}
+                {%- if block.settings.image -%}
+                  {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: loading: loading_strategy, fetchpriority: fetch_priority, widths: '200,300,400,600,800,1000,1200,1400,1600,1800,2000,2200,2400', class: class_attribute -}}
+                {%- elsif block.settings.image_url != blank -%}
+                  <img src="{{ block.settings.image_url }}" class="{{ class_attribute }}" loading="{{ loading_strategy | default: 'eager' }}" fetchpriority="{{ fetch_priority }}" alt="">
+                {%- endif -%}
               </div>
 
               {%- if block.settings.mobile_image -%}
@@ -191,6 +195,12 @@
           "id": "image",
           "label": "Image",
           "info": "2160 x 720px .jpg recommended"
+        },
+        {
+          "type": "text",
+          "id": "image_url",
+          "label": "Image URL (overrides image picker)",
+          "info": "Paste a direct image URL. Used when no image is selected above."
         },
         {
           "type": "image_picker",
