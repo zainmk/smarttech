@@ -5,17 +5,15 @@
 
 /* ─── Page background ─── */
 body {
-  background: linear-gradient(145deg, #eef2ff 0%, #f0f7ff 40%, #f5eeff 100%);
+  background: #d6d8db;
   background-attachment: fixed;
 }
 
 /* ─── Header — frosted glass ─── */
 .header {
-  background: rgba(255, 255, 255, 0.72) !important;
-  backdrop-filter: blur(24px) saturate(180%);
-  -webkit-backdrop-filter: blur(24px) saturate(180%);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.45);
-  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.07);
+  background: var(--header-background) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.12);
 }
 
 .header__desktop-nav-toggle {

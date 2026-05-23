@@ -318,6 +318,7 @@
         <div class="container">
           <ul class="nav-bar__linklist list--unstyled" data-type="menu" role="list">
             {%- for link in navigation_menu.links -%}
+              {%- if link.title == '|' -%}{%- continue -%}{%- endif -%}
               <li class="nav-bar__item">
                 {%- if link.links.size == 0 -%}
                   <a href="{{ link.url }}" class="nav-bar__link link" data-type="menuitem">{{ link.title }}</a>
