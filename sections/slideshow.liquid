@@ -16,7 +16,7 @@
       {%- for block in section.blocks -%}
         {%- capture slide_inner -%}
           <div class="slideshow__slide-inner slideshow__slide-inner--{{ block.settings.content_position | replace: '_', '-' }}">
-            {%- unless block.settings.image -%}
+            {%- unless block.settings.image or block.settings.image_url != blank -%}
               {%- capture placeholder -%}{% cycle 'lifestyle-1', 'lifestyle-2' %}{%- endcapture -%}
 
               {%- if section.settings.section_size == 'preserve_ratio' -%}
