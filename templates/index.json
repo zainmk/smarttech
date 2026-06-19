@@ -346,6 +346,21 @@
         "title": "",
         "html": "<div id=\"fb-root\"></div>\n<script async=\"\" defer crossorigin=\"anonymous\" src=\"https://connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v19.0\" nonce=\"\"></script>"
       }
+    },
+    "blog_posts_pgVDwB": {
+      "type": "blog-posts",
+      "name": "Blog Posts",
+      "settings": {
+        "blog": "smarttech",
+        "blog_posts_count": 3,
+        "title": "Articles",
+        "link_title": "View all",
+        "show_category": true,
+        "show_author": false,
+        "show_date": true,
+        "show_excerpt": true,
+        "stack_mobile": false
+      }
     }
   },
   "order": [
@@ -360,6 +375,7 @@
     "quick_links_mLeVwx",
     "text-with-icons",
     "custom_html_BELqMX",
-    "custom_html_VK8BxG"
+    "custom_html_VK8BxG",
+    "blog_posts_pgVDwB"
   ]
 }
