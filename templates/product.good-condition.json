@@ -50,8 +50,8 @@
         "content_CpxPgx": {
           "type": "content",
           "settings": {
-            "title": "Good Condition (4/5) ★★★★☆",
-            "content": "<h6><a href=\"/pages/product-conditions\" target=\"_blank\" title=\"Product Conditions\">Learn More</a></h6><p>Good Condition (4/5) ★★★★☆<br/></p>",
+            "title": "Good (4/5) ★★★★☆",
+            "content": "<p>Products in <strong>Good Condition</strong> have visible scratches that are able to be seen within 30cm of distance with eyesight.<br/><br/>Please check or ask for more photos of product if interested.</p><h6><a href=\"/pages/product-conditions\" target=\"_blank\" title=\"Product Conditions\">Learn More</a></h6>",
             "page": "",
             "display_mode": "show_all"
           }
