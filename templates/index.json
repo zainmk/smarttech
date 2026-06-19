@@ -145,29 +145,6 @@
         "link_url": ""
       }
     },
-    "quick_links_mLeVwx": {
-      "type": "quick-links",
-      "blocks": {
-        "link_mcTcf8": {
-          "type": "link",
-          "settings": {
-            "title": "Facebook Marketplace Link",
-            "link": "https://www.facebook.com/marketplace/profile/100030411018343/"
-          }
-        }
-      },
-      "block_order": [
-        "link_mcTcf8"
-      ],
-      "name": "Quick links",
-      "settings": {
-        "title": "Facebook Marketplace Deals (Shipping available)",
-        "expand_items": true,
-        "show_desktop": true,
-        "link_title": "",
-        "link": ""
-      }
-    },
     "164367724392cf761e": {
       "type": "featured-collection",
       "settings": {
@@ -286,6 +263,29 @@
         "link_url": ""
       }
     },
+    "quick_links_mLeVwx": {
+      "type": "quick-links",
+      "blocks": {
+        "link_mcTcf8": {
+          "type": "link",
+          "settings": {
+            "title": "Facebook Marketplace Link",
+            "link": "https://www.facebook.com/marketplace/profile/100030411018343/"
+          }
+        }
+      },
+      "block_order": [
+        "link_mcTcf8"
+      ],
+      "name": "Quick links",
+      "settings": {
+        "title": "Facebook Marketplace Deals (Shipping available)",
+        "expand_items": true,
+        "show_desktop": true,
+        "link_title": "",
+        "link": ""
+      }
+    },
     "text-with-icons": {
       "type": "text-with-icons",
       "blocks": {
@@ -354,10 +354,10 @@
     "b87e19b1-d3e6-42b2-80e3-7249920ab6b6",
     "custom_liquid_XYhtRA",
     "featured-collection",
-    "quick_links_mLeVwx",
     "164367724392cf761e",
     "1644454383c08d10aa",
     "16436698951cbdf320",
+    "quick_links_mLeVwx",
     "text-with-icons",
     "custom_html_BELqMX",
     "custom_html_VK8BxG"
