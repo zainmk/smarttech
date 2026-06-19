@@ -1,1 +1,103 @@
-{"type":"footer","name":"Footer group","sections":{"text-with-icons":{"type":"text-with-icons","blocks":{"item-1":{"type":"item","settings":{"icon":"bi-fast-delivery","title":"$20 Canada-Wide Delivery","content":"<p>Shop from Anywhere!<\/p>"}},"item-2":{"type":"item","settings":{"icon":"bi-returns","title":"Satisfied or Refunded","content":"<p>Shop Comfortably!<\/p>"}},"item-3":{"type":"item","disabled":true,"settings":{"icon":"bi-customer-support","title":"Top-notch support","content":"<p>24\/7 Support Services<\/p>"}},"item-4":{"type":"item","settings":{"icon":"bi-secure-payment","title":"Secure payments","content":"<p>Reliable And Secure Service<\/p>"}}},"block_order":["item-1","item-2","item-3","item-4"],"settings":{"stack_mobile":false}},"footer":{"type":"footer","blocks":{"7c925fc0-556b-46c5-9243-071dd05a7f94":{"type":"links","settings":{"menu":"main-menu"}},"footer-1":{"type":"links","settings":{"menu":"footer"}},"footer-2":{"type":"newsletter","settings":{"title":"Email Notifications","subheading":"<p>Get Notified On The Latest Deals & Promotion Codes<\/p>"}}},"block_order":["7c925fc0-556b-46c5-9243-071dd05a7f94","footer-1","footer-2"],"settings":{"show_social_media":true,"enable_follow_on_shop":true,"show_payment_icons":true,"show_locale_selector":false,"show_country_selector":false}}},"order":["text-with-icons","footer"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "footer",
+  "name": "Footer group",
+  "sections": {
+    "text-with-icons": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item-1": {
+          "type": "item",
+          "settings": {
+            "icon": "bi-fast-delivery",
+            "title": "$20 Canada-Wide Delivery",
+            "content": "<p>Shop from Anywhere!</p>"
+          }
+        },
+        "item-2": {
+          "type": "item",
+          "settings": {
+            "icon": "bi-returns",
+            "title": "Satisfied or Refunded",
+            "content": "<p>Shop Comfortably!</p>"
+          }
+        },
+        "item-3": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "icon": "bi-customer-support",
+            "title": "Top-notch support",
+            "content": "<p>24/7 Support Services</p>"
+          }
+        },
+        "item-4": {
+          "type": "item",
+          "settings": {
+            "icon": "bi-secure-payment",
+            "title": "Secure payments",
+            "content": "<p>Reliable And Secure Service</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item-1",
+        "item-2",
+        "item-3",
+        "item-4"
+      ],
+      "settings": {
+        "stack_mobile": false
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "text_m4PiEF": {
+          "type": "text",
+          "settings": {
+            "title": "Our Message",
+            "content": "<p>We are a family based company from Calgary, AB. We try our best to honor all commitments and orders, however we can sometimes unfortunately be limited in our capacity.</p><p>Thank you for being patient with us - we appreciate your feedback!</p>"
+          }
+        },
+        "footer-1": {
+          "type": "links",
+          "settings": {
+            "menu": "footer-menu-items"
+          }
+        },
+        "footer-2": {
+          "type": "newsletter",
+          "settings": {
+            "title": "Email Notifications",
+            "subheading": "<p>Get Notified On The Latest Deals & Promotion Codes</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_m4PiEF",
+        "footer-1",
+        "footer-2"
+      ],
+      "settings": {
+        "show_social_media": true,
+        "enable_follow_on_shop": true,
+        "show_payment_icons": true,
+        "show_locale_selector": false,
+        "show_country_selector": false
+      }
+    }
+  },
+  "order": [
+    "text-with-icons",
+    "footer"
+  ]
+}
