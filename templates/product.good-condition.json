@@ -47,6 +47,15 @@
             "show_gift_card_recipient": false
           }
         },
+        "content_CpxPgx": {
+          "type": "content",
+          "settings": {
+            "title": "A Grade Condition Pre-owned (8/10)",
+            "content": "<h6><a href=\"/pages/product-conditions\" target=\"_blank\" title=\"Product Conditions\">Learn More</a></h6>",
+            "page": "",
+            "display_mode": "show_all"
+          }
+        },
         "8707fe6e-803d-4f6b-8667-6f57326842f4": {
           "type": "store_pickup",
           "settings": {}
@@ -66,6 +75,7 @@
         "description",
         "variant_selector",
         "buy_buttons",
+        "content_CpxPgx",
         "8707fe6e-803d-4f6b-8667-6f57326842f4",
         "9739802a-5adb-4ab2-a893-75d950b6a8cb"
       ],
@@ -75,19 +85,6 @@
         "enable_image_zoom": true,
         "zoom_effect": "outside",
         "carousel_effect": "fade"
-      }
-    },
-    "image_with_text_WMdRX9": {
-      "type": "image-with-text",
-      "name": "Product Condition Label",
-      "settings": {
-        "image": "shopify://shop_images/GoodCondition4STARS_3acaa1a3-81b9-43da-be7d-8a72bb77789f.jpg",
-        "image_position": "right",
-        "image_width": 20,
-        "title": "A Grade Condition Pre-owned (8/10)",
-        "content": "<h6><a href=\"/pages/product-conditions\" target=\"_blank\" title=\"Product Conditions\">Learn More</a></h6>",
-        "button_text": "",
-        "button_link": "shopify://collections/all"
       }
     },
     "product-recommendations": {
@@ -223,7 +220,6 @@
   },
   "order": [
     "main",
-    "image_with_text_WMdRX9",
     "product-recommendations",
     "164496603670795ee2",
     "16429846160f5fdc0f",
