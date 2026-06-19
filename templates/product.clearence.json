@@ -51,15 +51,6 @@
           "type": "store_pickup",
           "settings": {}
         },
-        "9739802a-5adb-4ab2-a893-75d950b6a8cb": {
-          "type": "trust",
-          "settings": {
-            "trust_title": "Payment & Security",
-            "show_payment_icons": true,
-            "custom_security_badge": "shopify://shop_images/Untitled_19.png",
-            "custom_security_badge_width": 240
-          }
-        },
         "content_gxHWVX": {
           "type": "content",
           "settings": {
@@ -67,6 +58,15 @@
             "content": "<h6>All products on this page are sold as one-off items discounted Price; some may have physical imperfections, Minor Defect or damage; please refer to the descriptions for each product. </h6><h6>If you want more information on a specific item before purchasing, please use chat box. </h6><h6></h6><h6></h6><h6><a href=\"/pages/product-conditions\" target=\"_blank\" title=\"Product Conditions\">Learn More</a></h6>",
             "page": "",
             "display_mode": "show_all"
+          }
+        },
+        "9739802a-5adb-4ab2-a893-75d950b6a8cb": {
+          "type": "trust",
+          "settings": {
+            "trust_title": "Payment & Security",
+            "show_payment_icons": true,
+            "custom_security_badge": "shopify://shop_images/Untitled_19.png",
+            "custom_security_badge_width": 240
           }
         }
       },
@@ -76,8 +76,8 @@
         "variant_selector",
         "buy_buttons",
         "8707fe6e-803d-4f6b-8667-6f57326842f4",
-        "9739802a-5adb-4ab2-a893-75d950b6a8cb",
-        "content_gxHWVX"
+        "content_gxHWVX",
+        "9739802a-5adb-4ab2-a893-75d950b6a8cb"
       ],
       "settings": {
         "image_size": "medium",
@@ -85,18 +85,6 @@
         "enable_image_zoom": true,
         "zoom_effect": "outside",
         "carousel_effect": "fade"
-      }
-    },
-    "image_with_text_AgtfKF": {
-      "type": "image-with-text",
-      "settings": {
-        "image": "shopify://shop_images/Clearancesmaller.jpg",
-        "image_position": "right",
-        "image_width": 20,
-        "title": "[Clearance]",
-        "content": "<h6>All products on this page are sold as one-off items discounted Price; some may have physical imperfections, Minor Defect or damage; please refer to the descriptions for each product. </h6><h6>If you want more information on a specific item before purchasing, please use chat box. </h6>",
-        "button_text": "",
-        "button_link": "shopify://collections/all"
       }
     },
     "product-recommendations": {
@@ -232,7 +220,6 @@
   },
   "order": [
     "main",
-    "image_with_text_AgtfKF",
     "product-recommendations",
     "164496603670795ee2",
     "16429846160f5fdc0f",
