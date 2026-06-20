@@ -94,77 +94,6 @@
         "cycle_speed": 6
       }
     },
-    "1644541627e4992536": {
-      "type": "promotion-list",
-      "blocks": {
-        "item_mL3dnP": {
-          "type": "item",
-          "settings": {
-            "stretch_image": false,
-            "show_overlay": false,
-            "overlay_opacity": 50,
-            "background": "#000000",
-            "text_color": "#ffffff",
-            "title": "Your heading",
-            "content": "<p>Tell more about your product, collection...</p>",
-            "content_position": "top_left",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "Learn more",
-            "button_link": ""
-          }
-        },
-        "1644541627ac312e5f-0": {
-          "type": "item",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/BESTDEALS.png",
-            "stretch_image": true,
-            "show_overlay": true,
-            "overlay_opacity": 0,
-            "background": "#ffde00",
-            "text_color": "#f3f5f6",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#e1e3e4",
-            "button_text_color": "#0c0c0b",
-            "button_text": "",
-            "button_link": "shopify://collections/most-popular"
-          }
-        },
-        "1644541627ac312e5f-1": {
-          "type": "item",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Untitled_17.png",
-            "stretch_image": true,
-            "show_overlay": true,
-            "overlay_opacity": 0,
-            "background": "#ffffff",
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "bottom_left",
-            "button_background": "#e1e3e4",
-            "button_text_color": "#000000",
-            "button_text": "Our Store",
-            "button_link": "shopify://pages/about-us"
-          }
-        }
-      },
-      "block_order": [
-        "item_mL3dnP",
-        "1644541627ac312e5f-0",
-        "1644541627ac312e5f-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "expand_items": false,
-        "section_size": "small",
-        "stack_mobile": true
-      }
-    },
     "b87e19b1-d3e6-42b2-80e3-7249920ab6b6": {
       "type": "featured-collection",
       "settings": {
@@ -340,53 +269,6 @@
         "link": ""
       }
     },
-    "text-with-icons": {
-      "type": "text-with-icons",
-      "blocks": {
-        "icon-1": {
-          "type": "item",
-          "settings": {
-            "icon": "bi-fast-delivery",
-            "title": "Fast delivery worldwide",
-            "content": "<p>Deliver Within 3-5 Business Days</p>"
-          }
-        },
-        "icon-2": {
-          "type": "item",
-          "settings": {
-            "icon": "bi-customer-support",
-            "title": "Top-Notch Support",
-            "content": "<p>24/7 Support Services</p>"
-          }
-        },
-        "icon-3": {
-          "type": "item",
-          "settings": {
-            "icon": "bi-delivery",
-            "title": "Ready In 12-24 Hours",
-            "content": "<p>With Store Pick Up</p>"
-          }
-        },
-        "icon-4": {
-          "type": "item",
-          "settings": {
-            "icon": "bi-secure-payment",
-            "title": "Secure payments",
-            "content": "<p>Reliable And Secure Service</p>"
-          }
-        }
-      },
-      "block_order": [
-        "icon-1",
-        "icon-2",
-        "icon-3",
-        "icon-4"
-      ],
-      "disabled": true,
-      "settings": {
-        "stack_mobile": true
-      }
-    },
     "custom_html_BELqMX": {
       "type": "custom-html",
       "settings": {
@@ -419,7 +301,6 @@
   },
   "order": [
     "slideshow",
-    "1644541627e4992536",
     "b87e19b1-d3e6-42b2-80e3-7249920ab6b6",
     "custom_liquid_XYhtRA",
     "featured-collection",
@@ -427,7 +308,6 @@
     "1644454383c08d10aa",
     "16436698951cbdf320",
     "quick_links_mLeVwx",
-    "text-with-icons",
     "custom_html_BELqMX",
     "custom_html_VK8BxG",
     "blog_posts_pgVDwB"
