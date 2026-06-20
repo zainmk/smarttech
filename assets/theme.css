@@ -5424,6 +5424,7 @@ select option {
   color: var(--text-color);
   z-index: 1;
   border-radius: 3px;
+  overflow: hidden;
   align-items: center;
   height: 44px;
   display: flex;
