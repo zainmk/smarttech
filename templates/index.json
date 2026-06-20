@@ -62,29 +62,12 @@
             "button_text": "Button",
             "link": ""
           }
-        },
-        "image_banner_home": {
-          "type": "image",
-          "settings": {
-            "image_url": "https://cdn.shopify.com/s/files/1/0549/8594/9345/files/banner_home_800x800.png?v=1779486515",
-            "show_overlay": false,
-            "overlay_opacity": 0,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": ""
-          }
         }
       },
       "block_order": [
         "image_7Yp3yt",
         "image_tHiHi7",
-        "image_tzCyUg",
-        "image_banner_home"
+        "image_tzCyUg"
       ],
       "settings": {
         "edge_to_edge": true,
